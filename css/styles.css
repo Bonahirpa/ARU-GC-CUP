@@ -96,8 +96,9 @@ table {
   border-radius: 10px;
   /* overflow: hidden; */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  font-size: small;
+  font-size:large;
 }
+
 
 th, td {
   padding: 12px;
@@ -187,7 +188,9 @@ footer p {
   .menu-toggle {
     display: block;
   }
-
+table{
+    font-size:small;
+}
   nav ul {
     display: none;
     flex-direction: column;
