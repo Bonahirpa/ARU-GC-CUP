@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arsi University GC Cup</title>
+<link rel="stylesheet" href="./css/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+<header>
+  <h1>ARU GC Cup</h1>
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+  </div>
+  <nav>
+    <ul id="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#fixtures">Fixtures</a></li>
+      <li><a href="#teams">Committee</a></li>
+
+    </ul>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>GC Cup Standings</h2>
+  <table>
+    <tr>
+      <th>Position</th>
+      <th>Department</th>
+      <th>Won</th>
+      <th>Lost</th>
+      <th>Points</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>CS</td>
+      <td>5</td>
+      <td>1</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Economics</td>
+      <td>4</td>
+      <td>2</td>
+      <td>12</td>
+    </tr>
+          <td>3</td>
+      <td>IS</td>
+      <td>5</td>
+      <td>1</td>
+      <td>15</td>
+    </tr>
+          <td>4</td>
+      <td>Marketing</td>
+      <td>5</td>
+      <td>1</td>
+      <td>15</td>
+    </tr>
+          <td>5</td>
+      <td>ITM</td>
+      <td>5</td>
+      <td>1</td>
+      <td>15</td>
+    </tr>
+          <td>6</td>
+      <td>Law</td>
+      <td>5</td>
+      <td>1</td>
+      <td>15</td>
+    </tr>
+          <td>7</td>
+      <td>Management</td>
+      <td>5</td>
+      <td>1</td>
+      <td>15</td>
+    </tr>
+          <td>8</td>
+      <td>Medicine</td>
+      <td>5</td>
+      <td>1</td>
+      <td>15</td>
+    </tr>
+          <td>9</td>
+      <td>Accounting</td>
+      <td>5</td>
+      <td>1</td>
+      <td>15</td>
+    </tr>
+          <td>10</td>
+      <td>Sociology</td>
+      <td>5</td>
+      <td>1</td>
+      <td>15</td>
+    </tr>
+  </table>
+</section>
+<section id="fixtures">
+  <h2>Upcoming Matches</h2>
+  <ul>
+    <li>CS vs ITM <br> 20th Feb @ 9:00</li>
+    <li>Economics vs Business <br> 22nd Feb @ 8:30</li>
+  </ul>
+</section>
+<section id="teams">
+  <h2>Committee</h2>
+  <div class="team-container">
+    <div class="team-card">
+      <img src="./images/photo_2023-11-12_20-32-26.jpg" alt="Computer Science">
+      <p>Abuduro</p>
+    </div>
+    <div class="team-card">
+      <img src="./images/Bona-Short-photo.jpg" alt="Engineering">
+      <p>Bona Hirpa</p>
+    </div>
+  </div>
+</section>
+<footer>
+  <p>&copy; 2025 ARU GC Cup. All rights reserved.</p>
+</footer>
+
+<script>
+function toggleMenu() {
+  const navMenu = document.getElementById('nav-menu');
+  navMenu.classList.toggle('active');
+}
+</script>
+</body>
+</html>
