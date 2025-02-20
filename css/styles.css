@@ -88,7 +88,8 @@ h2 {
 
 /* Table Styles */
 table {
- width: 95%;
+ width: fit-content;
+ max-width: min-content;
   /* max-width: 800px; */
   margin: 0 auto;
   border-collapse: collapse;
